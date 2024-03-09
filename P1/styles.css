@@ -64,7 +64,7 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 20px;
     padding: 20px;
-    flex: 1; /* Hace que el contenido principal ocupe el espacio restante */
+    /* flex: 1; */
 }
 
 
@@ -78,12 +78,49 @@ main {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+   /* padding: 50px; */
 }
 
 .activity p {
     margin: 0;
 }
 
+article {
+    display: block; /* Cambiar la visualización de article de flex a bloque */
+    padding: 30px;
+}
+
+article img {
+    float: right; /* Utilizar float para alinear la imagen a la derecha */
+    width: 250px; /* Esto puede estar aquí o en el atributo style del HTML */
+    height: auto; /* Esto puede estar aquí o en el atributo style del HTML */
+    margin-right: 20px; /* Esto puede estar aquí o en el atributo style del HTML */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    text-decoration: none; /* Eliminar subrayado */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.redes-sociales {
+    text-align: center; /* Centra los elementos horizontalmente */
+    line-height: 50px; /* Establece la altura de línea igual al tamaño de las imágenes */
+}
+
+.redes-sociales a {
+    display: inline-block; /* Convierte los enlaces en elementos de bloque */
+    margin: 0 10px; /* Agrega margen horizontal entre los enlaces */
+    vertical-align: middle; /* Alinea verticalmente los elementos en el medio */
+}
+
+.redes-sociales img {
+    width: 30px; /* Establece un ancho fijo para las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
 
 /* Estilos del pie de página */
 footer {

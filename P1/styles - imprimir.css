@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: "Verdana", serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header .subtitle {
+    display: none; /* Oculta el subtítulo en el encabezado */
+}
+.logo img {
+    filter: grayscale(100%); /* Desaturar completamente las imágenes */
+}
+
+nav {
+    display: none; /* Oculta la navegación en el encabezado */
+}
+
+aside {
+    display : none;
+}
+
+/* Estilos de la zona principal */
+main {
+    width: 100%; /* Ocupa todo el ancho de la página */
+    padding: 20px;
+}
+
+/* Estilos de las actividades */
+.activity {
+    text-align: center;
+}
+
+
+.activity p {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Otra tipografía más clara */
+}
+
+/* Ocultar el espacio de las redes sociales */
+.redes-sociales {
+    display: none;
+}
+
+article img {
+    display: none;
+}
+
+/* Estilos del pie de página */
+footer {
+    display: none; /* Oculta el pie de página en la versión impresa */
+}
