@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+
+    <link rel="stylesheet" href="styles_comments.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Tu contenido existente -->
+    <!-- Contenedor para comentarios -->
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-0 border" style="background-color: #f0f2f5;">
+                <div class="card-body p-4">
+                    <!-- Tu contenido existente -->
+                    <!-- Contenedor de comentarios -->
+                    <div class="comment-container">
+                        <!-- Lista de comentarios -->
+                        <ul class="comment-list">
+                            <!-- Los comentarios se agregarán aquí dinámicamente -->
+                            <li>
+                                <div class="comment-header">
+                                    <div class="comment-author">Martha</div>
+                                    <div class="comment-date">21/03/2024 10:00 AM</div>
+                                </div>
+                                <div class="comment-text">This is the first comment.</div>
+                            </li>
+                            <li>
+                                <div class="comment-header">
+                                    <div class="comment-author">Johny</div>
+                                    <div class="comment-date">22/03/2024 11:30 AM</div>
+                                </div>
+                                <div class="comment-text">This is the second comment.</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Formulario de comentarios -->
+                    <form class="comment-form">
+                        <div class="mb-3">
+                            <label for="nameInput" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nameInput" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="emailInput" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="commentInput" class="form-label">Texto del comentario</label>
+                            <textarea class="form-control" id="commentInput" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Tu script JavaScript -->
+    <script src="script_comments.js"></script>
+</body>
+</html>

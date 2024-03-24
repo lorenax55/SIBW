@@ -1,0 +1,35 @@
+﻿.comment-container {
+    border: 1px solid #ced4da; /* Color del borde */
+    border-radius: 10px; /* Radio de los bordes */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.comment-list {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar espaciado */
+    margin: 0; /* Eliminar margen */
+}
+
+    .comment-list li {
+        background-color: #f8f9fa; /* Color de fondo */
+        border-radius: 8px; /* Radio de los bordes */
+        padding: 10px; /* Espaciado interno */
+        margin-bottom: 10px; /* Margen inferior */
+    }
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px; /* Margen inferior */
+}
+
+.comment-author {
+    font-weight: bold;
+}
+
+.comment-date {
+    color: #6c757d; /* Color del texto de la fecha */
+    font-size: 0.8rem; /* Tamaño del texto de la fecha */
+}
